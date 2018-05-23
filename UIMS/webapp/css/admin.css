@@ -1,0 +1,70 @@
+*{
+	margin: 0;	
+	padding: 0;
+}
+body{
+	width: 90%;
+	margin:0 auto;
+}
+.header{
+	height: 100px;
+	line-height: 100px;
+	background: #333333;
+	padding:0 20px;
+}
+.header *, .menu *, .footer *{
+	color: #FFF;
+}
+.header a, .menu a{
+	text-decoration: none;/*a鏍囩鍘绘帀涓嬪垝绾�*/
+}
+.header a.logo{
+	background: url("../images/logo.png") no-repeat;
+	padding-left: 45px;
+	font-size: 1.5em;
+}
+.header ul li{
+	list-style: none;
+	color: #FFF;
+	padding: 0 5px;
+}
+.header ul li a{
+}
+.float_l{
+	float: left;/*鍚戝乏娴姩*/
+}
+.float_r{
+	float: right;/*鍚戝彸娴姩*/
+}
+.float_clear{
+	clear: both;/*娓呴櫎娴姩*/
+}
+.body{
+	height: 730px;
+	margin-top: 20px;
+	border: 1px solid #E8E8E8;
+}
+.menu{
+	width: 20%;
+	height: 100%;
+	background: #333333;
+}
+.menu ul li{
+	padding: 5px 0;
+	text-align: center;
+}
+.menu ul li:hover{
+	background: #4C4C4C;
+}
+.show{
+	width: 78%;
+	height: 100%;
+	
+}
+.footer{
+	background: #333333;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+	<title>易唐登录</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+<!-- html注释，快捷键ctrl+shift+/ -->
+<!-- body是网页的主体，几乎所有的网页内容都是属于body -->
+	<div class="container">
+		<!-- h1表示1级标题，总共6级 -->
+		<h1>易唐用户管理系统登录页面<sup>v2018</sup></h1>
+		<div class="form">
+			<h2>快速登录</h2>
+			<hr>
+			<!-- 表单元素 -->
+			<form action="login" method="post">
+				帐号：<input class="text" type="text"  name="loginname">
+				<br>
+				密码：<input class="text" type="password" name="password">
+				<br>
+				<input class="btn" type="submit"  value="登录" onclick ="return login();">
+				<a href="regist.html">快速注册</a>
+			</form>
+		</div>
+		<!-- 段落 -->
+		<p>Copyright RAS ADMIN. All Right Reserved. More Templates <a href="http://www.entor.com.cn">易唐科技</a></p>
+	</div>
+</body>
+<script type="text/javascript" src="js/login.js"></script>
+</html>

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+table,td,th{
+	width:500px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th,tr, td ,input,a{
+	text-align: center;
+	
+}
+h1{
+width:200px;
+margin:0 auto;
+}
+div{
+width:500px;
+margin:0 auto;
+border: 1px, solid black;
+}

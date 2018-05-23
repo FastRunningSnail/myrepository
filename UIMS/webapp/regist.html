@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>易唐注册</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+
+	<div class="container">
+		<!-- h1表示1级标题，总共6级 -->
+		<h1>易唐摇奖系统注册页面<sup>v2017</sup></h1>
+		<div class="form">
+			<h2>快速注册</h2>
+			<hr>
+			<!-- 表单元素 -->
+			<form method="post" action="regist">
+				<table class="box">
+				<tr><td>帐号：</td><td><input class="text" type="text" name="loginname"></td></tr>		
+				<tr><td>密码：</td><td><input class="text" type="password" name="password"></td></tr>		
+				<tr><td>确认密码：</td><td><input class="text" type="password" name="confirm" ></td></tr>
+				<tr><td>姓名：</td><td><input class="text" type="text" name="realname"></td></tr>		
+				</table>	
+				<select name="authority">
+					<option value="1">普通用户</option>
+					<option value="2">管理员</option>
+					<option value="3">超级管理员</option>
+				</select>
+				<br>
+				<input class="btn" type="submit" value="注册" onclick ="return regist();">
+				<a href="login.html">快速登录</a>
+			</form>
+		</div>
+		<!-- 段落 -->
+		<p>Copyright RAS ADMIN. All Right Reserved. More Templates <a href="http://www.entor.com.cn">易唐科技</a></p>
+	</div>
+</body>
+<script type="text/javascript" src="js/regist.js"></script>
+</html>

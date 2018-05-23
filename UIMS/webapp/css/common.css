@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+/*body背景色*/
+	body{
+		background: orange;
+		font-family: Arial;
+	}
+	
+	.container{
+		width: 800px;/*宽900像素*/
+		margin: 0 auto;/*容器居中*/
+		margin-top: 100px;/*子容器顶部与父容器边界距离100像素*/
+	}
+	.container h1{
+		color: white;
+	}
+	.container h1,p,h2{
+		text-align: center;/*文本居中*/
+	}
+	.form{
+		width: 600px;/*宽700像素*/
+		height: auto;
+		margin: 0 auto;/*容器居中*/
+		background: #fff;/*背景色白色*/
+		padding-top: 10px;/*内上边距*/
+		padding-bottom: 10px;
+	}
+	form{
+		width: 550px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.text{
+		width: 200px;
+		height: 30px;
+		margin: 10px 0;
+	}
+	.btn{
+		margin-top: 10px;
+		width: 100px;
+		height: 30px;
+		border-style:none;
+		background: #3385ff;
+		color: snow;
+		border-radius: 5px;
+	}
+	
+	.box{
+		text-align: right;
+		width: auto;
+		margin: 0 auto;
+	}
